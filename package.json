@@ -19,7 +19,9 @@
     "vite": "^2.5.1",
     "vite-plugin-elm": "^2.4.3"
   },
-  "dependencies": {},
+  "dependencies": {
+    "elm-canvas": "^2.2.4"
+  },
   "main": "main.js",
   "repository": {
     "type": "git",

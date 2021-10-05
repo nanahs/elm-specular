@@ -25,3 +25,14 @@ For more information about Vite, check out [Vite's official documentation.](http
 To learn more about Elm, check out [Elm's official homepage](https://elm-lang.org/).
 
 To learn more about tailwindcss, check out [tailwindcss's official homepage](https://tailwindcss.com/).
+
+## Nice to haves
+
+- Wrap whole svg viewbox with an element that has resize enabled and use [ResizeObserver](https://developer.mozilla.org/en-US/docs/Web/API/Resize_Observer_API) to get bring the new height/width of the box back into elm
+- Convert box from rect to a List of Lines. Should allow for different shapes
+- Mark surfaces as reflective or not and make the ray use the property
+
+## Current issues
+
+- Improper segment intersection calculation. This was a big stopper for me and sank a majority of my time into it
+- The current app does not give you an idea of the total number of reflections that are possible
