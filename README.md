@@ -36,3 +36,7 @@ To learn more about tailwindcss, check out [tailwindcss's official homepage](htt
 
 - Improper segment intersection calculation. This was a big stopper for me and sank a majority of my time into it
 - The current app does not give you an idea of the total number of reflections that are possible
+
+## Demo
+
+https://adoring-lumiere-95dd98.netlify.app/
